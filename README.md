@@ -1,5 +1,5 @@
 This is the React part of a demo for GraphQL subscriptions with a standalone Rails API and a React App frontend.  
-The Rails API companion can be found [here](https://github.com/TimothyClayton/graphql_rails_api).
+The Rails API companion can be found [here](https://github.com/saviokmua/graphql_rails_api).
 
 ## Create React App Info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

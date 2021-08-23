@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.4.8",
     "actioncable": "^5.2.2",
     "apollo-boost": "^0.1.23",
     "graphql": "^14.0.2",
-    "graphql-ruby-client": "^1.6.3",
+    "graphql-ruby-client": "^1.9.4",
     "react": "^16.7.0",
     "react-apollo": "^2.3.3",
     "react-dom": "^16.7.0",

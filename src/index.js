@@ -12,10 +12,10 @@ import ActionCableLink from 'graphql-ruby-client/subscriptions/ActionCableLink'
 import { ApolloLink } from 'apollo-link'
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3000/graphql'
+  uri: 'https://api.cpl.pp.ua/graphql'
 })
 
-const cable = ActionCable.createConsumer('ws://localhost:3000/cable')
+const cable = ActionCable.createConsumer('wss://api.cpl.pp.ua/cable')
 
 const hasSubscriptionOperation = ({ query: { definitions } }) => {
   return definitions.some(
